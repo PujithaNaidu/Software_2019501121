@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/236x/4b/96/95/4b9695c7f368b6cd0f011cf53dec85f9.jpg);
+            /* background-image: url(https://i.pinimg.com/564x/00/c6/63/00c663eea3569aaae03e61ef9aa549d1.jpg); */
+
+        }
+
+        .container {
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .container>div {
+            background-color: papayawhip;
+            font-size: 20px;
+            margin: 30px;
+            padding: 20px;
+            width: 200px;
+            font-style: italic;
+            color: black
+        }
+
+        p {
+            text-align: center;
+            color: firebrick;
+            font-size: x-large;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        /* h1 {
+            font-size: x-large;
+            font-weight: bolder;
+            font-style: italic;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="Index.html">Home</a>
+        <a href="Index.html">About</a>
+        <a href="Food.html">Food</a>
+        <a href="Items.html">Trendings Picks For Food</a>
+        <a href="Recepies.html"> Recipes</a>
+        <a href="contact.html"> Contact Me</a>
+    </div>
+    <!-- <h1>Trending Picks </h1> -->
+    <p>Trending Foods</p>
+    <div class="container">
+        <div>Rose Milk @ Rose Milk Center,Rajamandry</div>
+        <div>Kakinanda Kaja @ Kotaiah Sweets ,Kakinanda</div>
+        <div>Strawberry Biscuits @ Kayani Bakery Pune</div>
+        <div>Vada Pav @ Street Food Mumbai </div>
+        <div>Neer Dosa @ Maiyas Restaurant Bangalore </div>
+        <div>Lassi Shop @ Bharawan Da Dhaba Amristar</div>
+        <div> Bannana Chips @ Street Food ,Kerala </div>
+        <div> Thappeswaram Kaja @ Suruchi Home Foods,Thappeswaram</div>
+        <div> Butter Chicken @ Punjabi Dhaba</div>
+        <div> Traditional Hyderabadi Breakfast @ Nayab Hotel ,Hyderabad</div>
+        <div> Jhwar @Rajasthan</div>
+        <div> Petha @ Taj Mahal ,Agra</div>
+        <!-- <div> hello </div> -->
+    </div>
+    <form action="Index.html" method="get">
+        <button type="link" formaction="Recepies.html">Previous Page</button>
+        <button type="link" formaction="contact.html" display:>Next Page</button>
+</body>
+
+</html>

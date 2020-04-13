@@ -1,0 +1,27 @@
+$myColor: red;
+$myColor2: #f2f2f2;
+$myColor3:black;
+$myColor4:plum;
+
+.topnav {
+    background-color:$myColor3;
+    overflow: hidden;
+    font-size: larger;
+}
+
+    /* Style the links inside the navigation bar */
+.topnav a {
+    float:top;
+    color:$myColor2;
+    text-align: center;
+    top:auto;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style:oblique;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+button{
+           background-color:$myColor4;
+        }
