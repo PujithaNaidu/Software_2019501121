@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: blanchedalmond;
+            padding: 16px;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;"> WELCOME </h1>
+    <div class="row">
+        <div class="column">
+            <img src="/static/image1.jpj.png" alt="Snow" style="width:100%">
+            <h1> New User ?</h1>
+            <a href="index.html">
+                <p>
+
+                    <h1> Register Here</h1>
+                </p>
+
+            </a>.
+        </div>
+        <div class="column">
+            <img src="/static/image1.jpj.png" alt="Forest" style="width:100%">
+            <h1> Already Have an account??</h1>
+            <a href="login.html">
+                <p>
+                    <h1>Login Here </h1>
+                </p>
+            </a>.
+        </div>
+
+    </div>
+
+</body>
+
+</html>
